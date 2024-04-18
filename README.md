@@ -41,7 +41,4 @@ Before using the datasets, please refer to the `README.md` files in each dataset
 ## License
 These datasets are provided under a [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. When using the data, attribution must be made.
 
-## Contact Information
-For more information or questions about the research, please contact us via the following email:
-- Email: [sun@cnu.ac.kr](mailto:sun@cnu.ac.kr)
-- Email: [manggu251@o.cnu.ac.kr](mailto:manggu251@o.cnu.ac.kr)
+
