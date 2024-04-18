@@ -1,6 +1,5 @@
 # Microplastics-in-Sewage
 
-## Overview
 This GitHub repository is dedicated to sharing the datasets used in the research on "Using a Sewage Microplastic Collection Device for Organic Material Removal and Microplastic Separation". There are two primary datasets available:
 
 - **Segmentation Dataset**: This dataset is used to identify the exact locations of microplastics.
@@ -45,3 +44,4 @@ These datasets are provided under a [CC BY-NC-SA](https://creativecommons.org/li
 ## Contact Information
 For more information or questions about the research, please contact us via the following email:
 - Email: [sun@cnu.ac.kr](mailto:sun@cnu.ac.kr)
+- Email: [manggu251@o.cnu.ac.kr](mailto:manggu251@o.cnu.ac.kr)
