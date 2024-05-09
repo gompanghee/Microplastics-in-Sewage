@@ -29,8 +29,9 @@ The Segmentation Dataset includes the following file structure:
 - `data/2_test_bi/`: Mask test images for binary segmentation with a microplastic probability assigned as 0 or 1.
 - `data/2_test_instance/`: Instance mask images for test set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
 
-- plain(image): 24bit RGB PNG, 512x512x3 
-- seg(mask): 
+- image: 24bit RGB PNG 
+- binary mask: 24bit RGB PNG, 0 is background, and 1 is microplastics. 
+- instance mask: npz file, key is 'data'. You can load as np.load("---.npz")\['data'\]
 
 ### Detection Dataset
 The Detection Dataset includes the following file structure:
