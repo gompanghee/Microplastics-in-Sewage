@@ -18,17 +18,25 @@ For segmentation:
 
 ## Data Structure
 ### Segmentation Dataset
-The Segmentation Dataset includes the following file structure:
+
+#### For Binary Segmentation
+The Binary Segmentation Dataset includes the following file structure:
 - `data/0_train/`: Images with microplastics for train set.
 - `data/0_train_bi/`: Mask training images for binary segmentation with a microplastic probability assigned as 0 or 1.
-- `data/0_train_instance/`: Instance mask images for training set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
 - `data/1_valid/`: Images with microplastics for valid set.
 - `data/1_valid_bi/`: Mask validation images for binary segmentation with a microplastic probability assigned as 0 or 1.
-- `data/1_valid_instance/`: Instance mask images for valid set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
 - `data/2_test/`: Images with microplastics for test set.
 - `data/2_test_bi/`: Mask test images for binary segmentation with a microplastic probability assigned as 0 or 1.
-- `data/2_test_instance/`: Instance mask images for test set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
 
+#### For Instance Segmentation
+The Instance Segmentation Dataset includes the following file structure:
+- `data/0_train/`: Images with microplastics for train set.
+- `data/0_train_instance/`: Instance mask images for training set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
+- `data/1_valid/`: Images with microplastics for valid set.
+- `data/1_valid_instance/`: Instance mask images for valid set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
+- `data/2_test/`: Images with microplastics for test set.
+- `data/2_test_instance/`: Instance mask images for test set. \[255, 0, x\] is fragment and \[255, 100, x\] is fiber, and 'x' is a unique id starting at 0. You can load as np.load("---.npz")\['data'\]
+- 
 - image: 24bit RGB PNG 
 - binary mask: 24bit RGB PNG, 0 is background, and 1 is microplastics. 
 - instance mask: npz file, key is 'data'. You can load as np.load("---.npz")\['data'\]
