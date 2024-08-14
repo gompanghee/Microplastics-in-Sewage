@@ -54,6 +54,34 @@ The Detection Dataset includes the following file structure:
 ## Usage Instructions
 Before using the datasets, please refer to the `README.md` files in each dataset directory to understand the characteristics and usage guidelines.
 
+## Citations
+
+### AMA
+Lee G, Jung J, Moon S, Jung J, Jhang K. Microscopic Image Dataset with Segmentation and Detection Labels for Microplastic Analysis in Sewage: Enhancing Research and Environmental Monitoring. Microplastics. 2024; 3(2):264-275. https://doi.org/10.3390/microplastics3020016
+
+### Chicago
+Lee, Gwanghee, Jaeheon Jung, Sangjun Moon, Jihyun Jung, and Kyoungson Jhang. 2024. "Microscopic Image Dataset with Segmentation and Detection Labels for Microplastic Analysis in Sewage: Enhancing Research and Environmental Monitoring" Microplastics 3, no. 2: 264-275. https://doi.org/10.3390/microplastics3020016
+
+### BibTex
+
+@Article{microplastics3020016, <br>
+AUTHOR = {Lee, Gwanghee and Jung, Jaeheon and Moon, Sangjun and Jung, Jihyun and Jhang, Kyoungson},<br>
+TITLE = {Microscopic Image Dataset with Segmentation and Detection Labels for Microplastic Analysis in Sewage: Enhancing Research and Environmental Monitoring},<br>
+JOURNAL = {Microplastics},<br>
+VOLUME = {3},<br>
+YEAR = {2024},<br>
+NUMBER = {2},<br>
+PAGES = {264--275},<br>
+URL = {https://www.mdpi.com/2673-8929/3/2/16},<br>
+ISSN = {2673-8929},<br>
+ABSTRACT = {We introduce a novel microscopic image dataset augmented with segmentation and detection labels specifically designed for microplastic analysis in sewage environments. Recognizing the increasing concern over microplastics—particles of synthetic polymers smaller than 5 mm—and their detrimental effects on marine ecosystems and human health, our research focuses on enhancing detection and analytical methodologies through advanced computer vision and deep learning techniques. The dataset comprises high-resolution microscopic images of microplastics collected from sewage, meticulously labeled for both segmentation and detection tasks, aiming to facilitate accurate and efficient identification and quantification of microplastic pollution. In addition to dataset development, we present example deep learning models optimized for segmentation and detection of microplastics within complex sewage samples. The models demonstrate significant potential in automating the analysis of microplastic contamination, offering a scalable solution to environmental monitoring challenges. Furthermore, we ensure the accessibility and reproducibility 12 of our research by making the dataset and model codes publicly available, accompanied by detailed 13 documentation on GitHub and LabelBox.},<br>
+DOI = {10.3390/microplastics3020016}<br>
+}
+
+
+
+
+
 ## License
 These datasets are provided under a [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. When using the data, attribution must be made.
 
