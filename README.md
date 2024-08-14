@@ -1,6 +1,6 @@
 # Microplastics-in-Sewage
 
-Github URL : [https://github.com/gompanghee/Microplastics-in-Sewage](https://github.com/gompanghee/Microplastics-in-Sewage)
+Github URL : [https://t.ly/zsKPW](https://t.ly/zsKPW)
 
 This GitHub repository is dedicated to sharing the datasets used in the research on "Using a Sewage Microplastic Collection Device for Organic Material Removal and Microplastic Separation". There are two primary datasets available:
 
